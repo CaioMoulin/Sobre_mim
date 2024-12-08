@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cabecalho li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.cabecalho .botao-header {
+    background-color: #FFD700;
+    color: #222;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cabecalho .botao-header:hover {
+    background-color: #333;
+    color: #FFD700;
+    transform: scale(1.05);
+}
+
+.calculadora {
+    margin: 40px auto;
+    max-width: 400px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.display input {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: #555;
+    color: #fff;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: #444;
+    color: #FFD700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFD700;
+    color: #222;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="lista.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <ul>
+            <li><a href="sobre.html"><button class="botao-header">Sobre Mim</button></a></li>
+            <li><button id="botaoCores" class="botao-header">Alterar Cores</button></li>
+        </ul>
+    </header>
+
+    <div class="caixa-lista">
+        <h1>Minha Lista de Tarefas</h1>
+        <form id="formularioTarefa">
+            <input type="text" id="entradaTarefa" placeholder="Digite sua tarefa" required>
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+    <div>
+        <ul id="listaTarefas"></ul>
+    </div>
+    <script src="lista.js"></script>
+</body>
+
+</html>
